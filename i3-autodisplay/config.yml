@@ -1,0 +1,6 @@
+displays:
+  - name: DVI-D-0
+    workspaces: [1,3,5,7,9]
+  - name: HDMI-0
+    workspaces: [2,4,6,8]
+    randr_extra_options: "--right-of HDMI-0"
